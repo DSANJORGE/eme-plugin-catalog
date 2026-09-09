@@ -56,6 +56,19 @@
     </name>
   </property>
 
+  <!-- TestU local patch: topic / subtopic of the attempt, for progress per section. -->
+  <property id="entitytutorial" type="list" listid="entitytutorial" index="true" editable="true" stored="true">Tutorial
+    <name>
+      <language id="en"><![CDATA[Tutorial]]></language>
+    </name>
+  </property>
+
+  <property id="componentsection" type="list" listid="componentsection" index="true" editable="true" stored="true">Section
+    <name>
+      <language id="en"><![CDATA[Section]]></language>
+    </name>
+  </property>
+
   <property id="iscorrect" editable="true" index="true" stored="true" type="boolean" datatype="boolean">Is Correct
     <name>
       <language id="en"><![CDATA[Is Correct]]></language>
