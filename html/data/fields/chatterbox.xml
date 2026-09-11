@@ -17,7 +17,7 @@
       <language id="fr"><![CDATA[Date]]></language>
     </name>
   </property>
-  <property id="channel" index="true" editable="true" stored="true" indextype="not_analyzed">
+  <property id="channel" type="list" index="true" editable="true" stored="true" indextype="not_analyzed">
     <name>
       <language id="en"><![CDATA[Channel]]></language>
       <language id="de"><![CDATA[Kanal]]></language>
