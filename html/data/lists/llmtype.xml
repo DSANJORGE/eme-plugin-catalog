@@ -18,4 +18,8 @@
    Llama CPP
   </llm>
 
+  <llm id="anthropic">
+   Anthropic Messages API
+  </llm>
+
 </llm>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties beanname="folderSearcher">
+  <property id="id" internalfield="true" index="true" editable="true" stored="true">
+    <name>
+      <language id="en"><![CDATA[Function name (call template)]]></language>
+      <language id="es"><![CDATA[Nombre de función (plantilla)]]></language>
+    </name>
+  </property>
+  <property id="name" editable="true" index="true" stored="true">
+    <name>
+      <language id="en"><![CDATA[Name]]></language>
+      <language id="es"><![CDATA[Nombre]]></language>
+    </name>
+  </property>
+  <property id="aiservers" editable="true" index="true" type="list" listid="aiserver" viewtype="multiselect" stored="true">
+    <name>
+      <language id="en"><![CDATA[AI servers, in order]]></language>
+      <language id="es"><![CDATA[Servidores de IA, en orden]]></language>
+    </name>
+  </property>
+  <property id="timeoutseconds" editable="true" index="true" type="number" stored="true">
+    <name>
+      <language id="en"><![CDATA[Timeout override (seconds)]]></language>
+      <language id="es"><![CDATA[Tiempo límite (segundos)]]></language>
+    </name>
+  </property>
+  <property id="description" editable="true" index="false" stored="true" viewtype="textarea">
+    <name>
+      <language id="en"><![CDATA[Description]]></language>
+      <language id="es"><![CDATA[Descripción]]></language>
+    </name>
+  </property>
+</properties>

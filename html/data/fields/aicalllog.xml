@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties beanname="folderSearcher">
+  <property id="id" internalfield="true" index="true" editable="false" stored="true">
+    <name><language id="en"><![CDATA[Id]]></language></name>
+  </property>
+  <property id="functionname" editable="false" index="true" indextype="not_analyzed" stored="true">
+    <name><language id="en"><![CDATA[Function]]></language></name>
+  </property>
+  <property id="aiserver" editable="false" index="true" type="list" listid="aiserver" stored="true">
+    <name><language id="en"><![CDATA[AI server]]></language></name>
+  </property>
+  <property id="modelname" editable="false" index="true" indextype="not_analyzed" stored="true">
+    <name><language id="en"><![CDATA[Model]]></language></name>
+  </property>
+  <property id="status" editable="false" index="true" indextype="not_analyzed" stored="true">
+    <name><language id="en"><![CDATA[Status]]></language></name>
+  </property>
+  <property id="ms" editable="false" index="true" type="number" stored="true">
+    <name><language id="en"><![CDATA[Milliseconds]]></language></name>
+  </property>
+  <property id="attempt" editable="false" index="true" type="number" stored="true">
+    <name><language id="en"><![CDATA[Attempt]]></language></name>
+  </property>
+  <property id="httpstatus" editable="false" index="true" type="number" stored="true">
+    <name><language id="en"><![CDATA[HTTP status]]></language></name>
+  </property>
+  <property id="promptokens" editable="false" index="true" type="number" stored="true">
+    <name><language id="en"><![CDATA[Prompt tokens]]></language></name>
+  </property>
+  <property id="completiontokens" editable="false" index="true" type="number" stored="true">
+    <name><language id="en"><![CDATA[Completion tokens]]></language></name>
+  </property>
+  <property id="errormessage" editable="false" index="false" stored="true" viewtype="textarea">
+    <name><language id="en"><![CDATA[Error]]></language></name>
+  </property>
+  <property id="datecreated" editable="false" index="true" type="date" stored="true">
+    <name><language id="en"><![CDATA[Date]]></language></name>
+  </property>
+</properties>
