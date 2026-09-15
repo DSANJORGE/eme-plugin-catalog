@@ -25,7 +25,7 @@
       <language id="es"><![CDATA[Tiempo límite (segundos)]]></language>
     </name>
   </property>
-  <property id="description" editable="true" index="false" stored="true" viewtype="textarea">
+  <property id="description" editable="true" index="true" type="text" stored="true" viewtype="textarea">
     <name>
       <language id="en"><![CDATA[Description]]></language>
       <language id="es"><![CDATA[Descripción]]></language>
