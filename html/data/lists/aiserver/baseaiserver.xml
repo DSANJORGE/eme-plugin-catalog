@@ -43,16 +43,16 @@
       <language id="es"><![CDATA[IA: Detección de rostros]]></language>
     </name>
   </data>
-  <data id="groq" connectionbean="openaiConnection" modelname="llama-3.3-70b-versatile" serverroot="https://api.groq.com/openai" serverpathprefix="/v1" serverapikey="" enabled="false" ordering="20" aiservertype="thinking">
+  <data id="groq" connectionbean="openaiConnection" modelname="llama-3.3-70b-versatile" serverroot="https://api.groq.com/openai" serverpathprefix="/v1" serverapikey="" disabled="true" ordering="20" aiservertype="thinking">
     <name><![CDATA[AI: Groq (OpenAI compatible)]]></name>
   </data>
-  <data id="openrouter" connectionbean="openaiConnection" modelname="qwen/qwen3-235b-a22b-2507" serverroot="https://openrouter.ai/api" serverpathprefix="/v1" serverapikey="" enabled="false" ordering="30" aiservertype="thinking">
+  <data id="openrouter" connectionbean="openaiConnection" modelname="qwen/qwen3-235b-a22b-2507" serverroot="https://openrouter.ai/api" serverpathprefix="/v1" serverapikey="" disabled="true" ordering="30" aiservertype="thinking">
     <name><![CDATA[AI: OpenRouter (OpenAI compatible)]]></name>
   </data>
-  <data id="together" connectionbean="openaiConnection" modelname="meta-llama/Llama-3.3-70B-Instruct-Turbo" serverroot="https://api.together.xyz" serverpathprefix="/v1" serverapikey="" enabled="false" ordering="40" aiservertype="thinking">
+  <data id="together" connectionbean="openaiConnection" modelname="meta-llama/Llama-3.3-70B-Instruct-Turbo" serverroot="https://api.together.xyz" serverpathprefix="/v1" serverapikey="" disabled="true" ordering="40" aiservertype="thinking">
     <name><![CDATA[AI: Together AI (OpenAI compatible)]]></name>
   </data>
-  <data id="anthropic" connectionbean="anthropicConnection" modelname="claude-opus-5" serverroot="https://api.anthropic.com" serverpathprefix="/v1" serverapikey="" enabled="false" ordering="50" aiservertype="thinking">
+  <data id="anthropic" connectionbean="anthropicConnection" modelname="claude-opus-5" serverroot="https://api.anthropic.com" serverpathprefix="/v1" serverapikey="" disabled="true" ordering="50" aiservertype="thinking">
     <name><![CDATA[AI: Anthropic Claude]]></name>
   </data>
 </root>
