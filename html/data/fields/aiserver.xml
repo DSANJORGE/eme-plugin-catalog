@@ -90,8 +90,10 @@
     </name>
   </property>
   <property id="disabled" editable="true" index="true" type="boolean" stored="true">
-    <name><![CDATA[Disabled]]></name>
-    <name lang="es"><![CDATA[Deshabilitado]]></name>
+    <name>
+      <language id="en"><![CDATA[Disabled]]></language>
+      <language id="es"><![CDATA[Deshabilitado]]></language>
+    </name>
   </property>
   <property id="timeoutseconds" editable="true" index="true" type="number" stored="true">
     <name>
