@@ -119,7 +119,7 @@
       <language id="es"><![CDATA[Último /health ms (-1 = falló)]]></language>
     </name>
   </property>
-  <property id="extraparams" editable="true" index="false" stored="true" viewtype="textarea">
+  <property id="extraparams" editable="true" index="true" type="text" stored="true" viewtype="textarea">
     <name>
       <language id="en"><![CDATA[Extra request params (JSON object merged into every call)]]></language>
       <language id="es"><![CDATA[Parámetros extra (objeto JSON añadido a cada llamada)]]></language>
