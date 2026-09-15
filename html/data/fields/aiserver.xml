@@ -81,14 +81,14 @@
       <language id="fr"><![CDATA[Commande]]></language> 
     </name> 
   </property>  
-  <property id="aiservertype" editable="true" index="true" stored="true" type="list">
-    <name>
-      <language id="en"><![CDATA[AI Server Type]]></language>
+  <property id="aiservertype" editable="true" index="true" stored="true" type="list"> 
+    <name> 
+      <language id="en"><![CDATA[AI Server Type]]></language>  
       <language id="de"><![CDATA[KI-Server-Typ]]></language>
       <language id="fr"><![CDATA[Type de serveur IA]]></language>
       <language id="es"><![CDATA[Tipo de servidor de IA]]></language>
-    </name>
-  </property>
+    </name> 
+  </property> 
   <property id="disabled" editable="true" index="true" type="boolean" stored="true">
     <name>
       <language id="en"><![CDATA[Disabled]]></language>

@@ -15,8 +15,8 @@
   </property>
   <property id="aiservers" editable="true" index="true" type="list" listid="aiserver" viewtype="multiselect" stored="true">
     <name>
-      <language id="en"><![CDATA[AI servers, in order]]></language>
-      <language id="es"><![CDATA[Servidores de IA, en orden]]></language>
+      <language id="en"><![CDATA[AI servers, in order. Order matters; for embedding servers keep one row unless models are identical.]]></language>
+      <language id="es"><![CDATA[Servidores de IA, en orden. El orden importa; en servidores de embedding deje una sola fila salvo que los modelos sean idénticos.]]></language>
     </name>
   </property>
   <property id="timeoutseconds" editable="true" index="true" type="number" stored="true">
