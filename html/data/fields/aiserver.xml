@@ -89,4 +89,40 @@
       <language id="es"><![CDATA[Tipo de servidor de IA]]></language>
     </name> 
   </property> 
+  <property id="disabled" editable="true" index="true" type="boolean" stored="true">
+    <name>
+      <language id="en"><![CDATA[Disabled]]></language>
+      <language id="es"><![CDATA[Deshabilitado]]></language>
+    </name>
+  </property>
+  <property id="timeoutseconds" editable="true" index="true" type="number" stored="true">
+    <name>
+      <language id="en"><![CDATA[Timeout (seconds, default 30)]]></language>
+      <language id="es"><![CDATA[Tiempo límite (segundos, 30 por defecto)]]></language>
+    </name>
+  </property>
+  <property id="breakerfailures" editable="true" index="true" type="number" stored="true">
+    <name>
+      <language id="en"><![CDATA[Breaker: failures to open (default 3)]]></language>
+      <language id="es"><![CDATA[Fusible: fallos para abrir (3 por defecto)]]></language>
+    </name>
+  </property>
+  <property id="breakerminutes" editable="true" index="true" type="number" stored="true">
+    <name>
+      <language id="en"><![CDATA[Breaker: minutes open (default 5)]]></language>
+      <language id="es"><![CDATA[Fusible: minutos abierto (5 por defecto)]]></language>
+    </name>
+  </property>
+  <property id="healthms" editable="false" index="true" type="number" stored="true">
+    <name>
+      <language id="en"><![CDATA[Last /health ms (-1 = failed)]]></language>
+      <language id="es"><![CDATA[Último /health ms (-1 = falló)]]></language>
+    </name>
+  </property>
+  <property id="extraparams" editable="true" index="true" type="text" stored="true" viewtype="textarea">
+    <name>
+      <language id="en"><![CDATA[Extra request params (JSON object merged into every call)]]></language>
+      <language id="es"><![CDATA[Parámetros extra (objeto JSON añadido a cada llamada)]]></language>
+    </name>
+  </property>
 </properties>
