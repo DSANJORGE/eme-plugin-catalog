@@ -14,9 +14,9 @@
     </name>
   </property>
 
-  <property id="entityquestion" type="list" listid="entityquestion" index="true" editable="true" stored="true">Entity Question
+  <property id="entityquestion" type="list" listid="entityquestion" index="true" editable="true" stored="true">Question
     <name>
-      <language id="en"><![CDATA[Entity Question]]></language>
+      <language id="en"><![CDATA[Question]]></language>
     </name>
   </property>
 
