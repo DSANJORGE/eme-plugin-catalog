@@ -6,7 +6,7 @@
     
     <data id="CreationVideos" ordering="30" icon="lightning-charge">Create Videos</data>
     
-    <data id="Creator" ordering="50" icon="mortarboard" requiredsearchtype="aitutorial">Tutorials</data>
+    <data id="Creator" ordering="50" icon="mortarboard" requiredsearchtype="entitytutorial">Tutorials</data>
     
     <data id="CreatorBlog" ordering="52" icon="mortarboard" requiredsearchtype="userpost">Blogs</data>
     

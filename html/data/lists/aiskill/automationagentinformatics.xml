@@ -123,8 +123,8 @@
     </name> 
     <markdowncontent><![CDATA[Generates vector embeddings for entity assets to power AI semantic retrieval.]]></markdowncontent>
   </data>  
-  <!-- Automatically embed aitutorial -->  
-  <data id="aitutorialsEmbedding" bean="embeddingSkill" searchtype="aitutorial" contextbean="informaticsContext" enabled="true" agenttype="taskagent" ordering="800"> 
+  <!-- Automatically embed entitytutorial -->  
+  <data id="entitytutorialsEmbedding" bean="embeddingSkill" searchtype="entitytutorial" contextbean="informaticsContext" enabled="true" agenttype="taskagent" ordering="800"> 
     <name> 
       <language id="en"><![CDATA[Tutorials Embedding]]></language>  
       <language id="de"><![CDATA[Tutorials einbetten]]></language>

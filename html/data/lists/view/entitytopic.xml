@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties> 
+
+<data id="entitytopicaiguide" renderexternalid="entitytopic" showonsearch="false" byassettype="false" ordering="1765471622135" rendertype="tabworkflowchat" renderinternalid="id" moduleid="entitytopic"> 
+    <name><![CDATA[AI Guide]]></name> 
+  </data> 
+
+  <property id="entitytopicentityasset"  moduleid="entityasset"  systemdefined="false"  ordering="20">
+		<name>
+			<language id="en"><![CDATA[Sources]]></language>
+			<language id="es"><![CDATA[Fuentes]]></language>
+			<language id="de"><![CDATA[Quellen]]></language>
+			<language id="fr"><![CDATA[Sources]]></language>
+		</name>
+  </property>
+
+  <property id="entitytopicentitytutorial"  moduleid="entitytutorial"  systemdefined="false"  ordering="20">
+		<name>
+			<language id="en"><![CDATA[Tutorials]]></language>
+			<language id="es"><![CDATA[Tutoriales]]></language>
+			<language id="de"><![CDATA[Tutorials]]></language>
+			<language id="fr"><![CDATA[Tutorials]]></language>
+		</name>
+  </property>
+
+</properties>

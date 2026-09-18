@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties> 
+
+<property id="entitytutorialentityasset"  moduleid="entityasset"  systemdefined="false"  ordering="20">
+		<name>
+			<language id="en"><![CDATA[Sources]]></language>
+			<language id="es"><![CDATA[Fuentes]]></language>
+			<language id="de"><![CDATA[Quellen]]></language>
+			<language id="fr"><![CDATA[Sources]]></language>
+		</name>
+  </property>
+
+    <data id="entitytutorialsmart_creator" renderexternalid="entitytutorial" showonsearch="false" deleted="false" byassettype="false" ordering="1781293923831" systemdefined="false" renderinternalid="id" rendertype="tabsmartcreator" moduleid="entitytutorial"> 
+    <name><![CDATA[Smart Creator]]></name> 
+  </data>  
+  <data id="entitytutorialpreview" renderexternalid="entitytutorial" showonsearch="false" deleted="false" byassettype="false" ordering="1781293938780" systemdefined="false" renderinternalid="id" rendertype="tabsmartcreatorpreview" moduleid="entitytutorial">
+    <name><![CDATA[Preview]]></name>
+  </data> 
+
+</properties>

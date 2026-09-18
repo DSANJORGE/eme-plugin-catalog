@@ -84,12 +84,20 @@
       <language id="fr"><![CDATA[Versions de rendu]]></language>
     </name> 
   </data> 
-  <data id="aitutorial" isentity="true" moduleicon="file-earmark-post" semanticenabled="true" showonsearch="true" moduleresultsview="table" uploadsourcepath="Tutorials/${data.entity_date.YYYY}/${data.name}" aicreationmethod="smartcreator"> 
+  <data id="entitytopic" isentity="true" moduleicon="file-earmark-post" semanticenabled="true" showonsearch="true" moduleresultsview="table"> 
     <name> 
-      <language id="en"><![CDATA[AI Tutorials]]></language>  
-      <language id="es"><![CDATA[Tutoriales de IA]]></language>  
-      <language id="de"><![CDATA[KI-Tutorials]]></language>
-      <language id="fr"><![CDATA[Tutoriels d'IA]]></language>
+      <language id="en"><![CDATA[Topics]]></language>  
+      <language id="es"><![CDATA[Topics]]></language>  
+      <language id="de"><![CDATA[Topics]]></language>
+      <language id="fr"><![CDATA[Topics]]></language>
+    </name> 
+  </data>
+  <data id="entitytutorial" isentity="true" moduleicon="morterboard" semanticenabled="true" showonsearch="true" moduleresultsview="table" aicreationmethod="smartcreator"> 
+    <name> 
+      <language id="en"><![CDATA[Tutorials]]></language>  
+      <language id="es"><![CDATA[Tutoriales]]></language>  
+      <language id="de"><![CDATA[Tutorials]]></language>
+      <language id="fr"><![CDATA[Tutoriels]]></language>
     </name> 
   </data>
 </root>
