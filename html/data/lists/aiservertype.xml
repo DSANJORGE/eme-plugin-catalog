@@ -29,6 +29,11 @@
       <![CDATA[Translate]]>
     </name>
   </data>
+  <data id="speak">
+    <name>
+      <![CDATA[Text to Speech]]>
+    </name>
+  </data>
   <data id="transcribe">
     <name>
       <![CDATA[Transcribe]]>

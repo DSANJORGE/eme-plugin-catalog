@@ -29,7 +29,15 @@
   <data id="translate" connectionbean="httpConnection" serverroot="https://translate.emediaworkspace.com" serverapikey="demo" aiservertype="translate"> 
     <name><![CDATA[AI: Translate Server]]></name> 
   </data>  
-  <data id="transcriber" connectionbean="httpConnection" serverroot="https://transcribe.emediaworkspace.com" serverapikey="demo" aiservertype="transcribe"> 
+  <data id="elevenlabs" connectionbean="httpConnection" modelname="eleven_flash_v2_5" serverroot="https://api.elevenlabs.io" serverpathprefix="/v1" voiceid="5vkxOzoz40FrElmLP4P7" aiservertype="speak">
+    <name>
+      <language id="en"><![CDATA[AI: Tutor Voice]]></language>
+      <language id="de"><![CDATA[KI: Tutor-Stimme]]></language>
+      <language id="fr"><![CDATA[IA : Voix du tuteur]]></language>
+      <language id="es"><![CDATA[IA: Voz de la tutora]]></language>
+    </name>
+  </data>
+  <data id="transcriber" connectionbean="httpConnection" serverroot="https://transcribe.emediaworkspace.com" serverapikey="demo" aiservertype="transcribe">
     <name><![CDATA[AI: Transcriber Server]]></name> 
   </data>  
   <data id="vectorizerem" connectionbean="httpConnection" serverroot="http://vectorizerem.entermediadb.net:48981" serverapikey="demo" aiservertype="vectorize"> 

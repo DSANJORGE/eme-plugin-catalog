@@ -65,6 +65,14 @@
       <language id="es"><![CDATA[Nombre del modelo]]></language>
     </name> 
   </property>  
+  <property id="voiceid" editable="true" index="true" stored="true"> 
+    <name> 
+      <language id="en"><![CDATA[Voice Id]]></language>  
+      <language id="de"><![CDATA[Stimmen-ID]]></language>
+      <language id="fr"><![CDATA[Identifiant de la voix]]></language>
+      <language id="es"><![CDATA[Identificador de voz]]></language>
+    </name> 
+  </property>  
   <property id="monitorspeed" editable="true" index="true" type="boolean" stored="true"> 
     <name> 
       <language id="en"><![CDATA[Monitor Speed]]></language>  
