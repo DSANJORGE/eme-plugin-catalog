@@ -49,5 +49,10 @@
       <![CDATA[Face Detect]]>
     </name>
   </data>
-  
+  <data id="classifytext">
+    <name>
+      <![CDATA[Classify Text]]>
+    </name>
+  </data>
+
 </data>
