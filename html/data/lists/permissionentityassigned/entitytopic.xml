@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Per-topic "manageevaluations" (Permissions.canEntity): each Trainers group is denied at module level (no entityid) and granted on
-     its own topic, so a trainer only sees that topic in Evaluaciones. Groups without rows (administrators) keep the allow default.
+<!-- Per-topic "manageevaluations" (Permissions.canEntity): each Trainers group is denied at module level (moduleid, no entityid) and granted on
+     its own topic (entityid, no moduleid: Permissions.canModule matches every row with moduleid, so a grant row carrying it would
+     override the deny). A trainer then only sees that topic in Evaluaciones. Groups without rows (administrators) keep the allow default.
      Derechos Humanos: add its trainers group here with the live topic id (local id is ES-generated). -->
 <permissionentityassigneds>
   <permissionentityassigned id="entitytopic_trainingld_manageevaluations" moduleid="entitytopic" group="trainingld" permissionsentity="manageevaluations" enabled="false"/>
-  <permissionentityassigned id="entitytopic_ciberseguridad_trainingld_manageevaluations" moduleid="entitytopic" entityid="ciberseguridad" group="trainingld" permissionsentity="manageevaluations" enabled="true"/>
+  <permissionentityassigned id="entitytopic_ciberseguridad_trainingld_manageevaluations" entityid="ciberseguridad" group="trainingld" permissionsentity="manageevaluations" enabled="true"/>
 </permissionentityassigneds>
