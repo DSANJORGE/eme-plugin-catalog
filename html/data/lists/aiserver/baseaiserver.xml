@@ -46,12 +46,21 @@
   <data id="vectorizerem" connectionbean="httpConnection" serverroot="http://vectorizerem.entermediadb.net:48981" serverapikey="demo" aiservertype="vectorize"> 
     <name><![CDATA[AI: Vector Server (Text)]]></name> 
   </data>  
-  <data id="facedetect" connectionbean="httpConnection" serverroot="http://vectorizerem.entermediadb.net:48981" serverapikey="demo" aiservertype="facedetect"> 
-    <name> 
-      <language id="en"><![CDATA[AI: Face Detection]]></language>  
+  <data id="facedetect" connectionbean="httpConnection" serverroot="http://vectorizerem.entermediadb.net:48981" serverapikey="demo" aiservertype="facedetect">
+    <name>
+      <language id="en"><![CDATA[AI: Face Detection]]></language>
       <language id="de"><![CDATA[KI: Gesichtserkennung]]></language>
       <language id="fr"><![CDATA[IA : Détection des visages]]></language>
       <language id="es"><![CDATA[IA: Detección de rostros]]></language>
-    </name> 
-  </data> 
+    </name>
+  </data>
+  <data id="anthropic" connectionbean="anthropicConnection" modelname="claude-sonnet-5" serverroot="https://api.anthropic.com" serverpathprefix="/v1" serverapikey="" disabled="true" ordering="50" aiservertype="thinking" extraparams='{"thinking":{"type":"disabled"}}'>
+    <name><![CDATA[AI: Anthropic Claude]]></name>
+  </data>
+  <data id="groq" connectionbean="openaiConnection" modelname="openai/gpt-oss-120b" serverroot="https://api.groq.com/openai" serverpathprefix="/v1" serverapikey="" disabled="true" ordering="20" aiservertype="thinking" extraparams='{"max_tokens":2000,"reasoning_effort":"low"}'>
+    <name><![CDATA[AI: Groq (OpenAI compatible)]]></name>
+  </data>
+  <data id="openrouter" connectionbean="openaiConnection" modelname="openai/gpt-oss-120b" serverroot="https://openrouter.ai/api" serverpathprefix="/v1" serverapikey="" disabled="true" ordering="15" aiservertype="thinking">
+    <name><![CDATA[AI: OpenRouter (OpenAI compatible)]]></name>
+  </data>
 </root>
