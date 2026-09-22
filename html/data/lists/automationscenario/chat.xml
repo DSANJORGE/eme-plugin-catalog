@@ -3,7 +3,7 @@
 <records>
   <data id="chat_detection" ordering="50" scenarioicon="robot" enabled="true" isvisible="true" connectedtop="chatlabel" chatenabled="true">
     <name> 
-      <language id="en"><![CDATA[Monitor Chats2]]></language>
+      <language id="en"><![CDATA[Monitor Chats]]></language>
       <language id="de"><![CDATA[Chats überwachen]]></language>
       <language id="fr"><![CDATA[Surveiller les chats]]></language>
       <language id="es"><![CDATA[Monitorear chats]]></language>      
@@ -63,5 +63,14 @@
       <language id="es"><![CDATA[Chat con el tutor]]></language>
     </name>
     <markdowncontent><![CDATA[Powers an adaptive interactive tutoring session that guides learners step-by-step through educational material, evaluates responses, awards cognitive confidence scores, tracks mastery progress, and answers learner questions.]]></markdowncontent>
+  </data>
+   <data id="chat_imagecreator" ordering="50" scenarioicon="broadcast" enabled="true" isvisible="false"  connectedtop="chatlabel">
+    <name>
+      <language id="en"><![CDATA[Image Creator Chat]]></language>
+      <language id="de"><![CDATA[Bild-Generator-Chat]]></language>
+      <language id="fr"><![CDATA[Chat du créateur d'images]]></language>
+      <language id="es"><![CDATA[Chat del creador de imágenes]]></language>
+    </name>
+    <markdowncontent><![CDATA[Image creation based on user prompts.]]></markdowncontent>
   </data>
 </records>

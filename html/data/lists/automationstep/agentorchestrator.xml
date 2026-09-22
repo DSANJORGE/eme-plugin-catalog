@@ -10,11 +10,28 @@
     </name> 
   </data>  
 
-   <data id="agentJobCreator" aiskill="agentJobCreatorSkill" automationscenario="agentorchestrator" enabled="true" agenttype="eventagent" processingmessage="Detecting" runafter="agentorchestrator_welcome" >
+   <data id="agentJobCreator" aiskill="agentJobCreatorSkill" automationscenario="agentorchestrator" enabled="true" agenttype="eventagent" processingmessage="Calculating Steps" runafter="agentorchestrator_welcome" >
       <name>
-         <![CDATA[Auto Detect Next Step]]>
+         <![CDATA[Job Creator]]>
       </name>
    </data>
-   
 
-   </records>
+    <data id="agentJobStatus" aiskill="agentJobStatusSkill" automationscenario="agentorchestrator" enabled="true" agenttype="eventagent" processingmessage="Checking Job Status" runafter="agentJobCreator" >
+       <name>
+          <![CDATA[Agent Job Status]]>
+       </name>
+    </data>
+
+    <data id="markdownToHtml" aiskill="markdownToHtmlSkill" automationscenario="agentorchestrator" enabled="true" agenttype="eventagent" processingmessage="Rendering Markdown to HTML" runafter="agentJobStatus" >
+        <name>
+           <![CDATA[Markdown to HTML]]>
+        </name>
+     </data>
+
+    <data id="openCodeRunner" aiskill="openCodeRunnerSkill" automationscenario="agentorchestrator" enabled="true" agenttype="eventagent" processingmessage="Running Command" runafter="markdownToHtml" >
+        <name>
+           <![CDATA[Open Code Runner]]>
+        </name>
+     </data>
+
+     </records>
