@@ -227,7 +227,7 @@
       <language id="es"><![CDATA[Apellido]]></language>
     </name>
   </property>
-  <property id="email" index="true" stored="true" keyword="true" editable="true" indextype="not_analyzed">
+  <property id="email" index="true" stored="true" keyword="true" editable="true">
     <name>
       <language id="en"><![CDATA[Email]]></language>
       <language id="de"><![CDATA[E-Mail]]></language>
