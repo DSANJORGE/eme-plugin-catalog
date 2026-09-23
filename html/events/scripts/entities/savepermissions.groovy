@@ -3,8 +3,8 @@ package entities;
 import org.entermediadb.asset.MediaArchive
 import org.entermediadb.users.PermissionManager
 import org.openedit.Data
-import org.openedit.data.EntityPermissions
 import org.openedit.data.Searcher
+import java.util.ArrayList
 
 public void init()
 {
@@ -12,38 +12,47 @@ public void init()
 
 	String moduleid = context.getRequestParameter("moduleid");
 	String groupid = context.getRequestParameter("settingsgroupid");
+	String entityid = context.getRequestParameter("entityid");
 	
 	PermissionManager permissionManager = mediaarchive.getBean("permissionManager");
-	Map permissionassigned = permissionManager.loadEntitySettingsGroupPermissions(moduleid, groupid);
-	
+
 	String[] fields = context.getRequestParameters("field");
 	
 	Searcher permissionsSearcher = mediaarchive.getSearcher("permissionentityassigned");
 
-	for (permissionid in fields) {
+	Collection<Data> existing = new ArrayList<Data>();
+	if( entityid != null)
+	{
+		existing = permissionsSearcher.query().exact("moduleid", moduleid).exact("group", groupid).exact("entityid", entityid).search();
+	}
+	else
+	{
+		existing = permissionsSearcher.query().exact("moduleid", moduleid).exact("group", groupid).search();
+	}
+	permissionsSearcher.deleteAll(existing, null);
 	
+	Collection<Data> tosave = new ArrayList<Data>();
+	for (permissionid in fields) {
 		String permissionidvalue = context.getRequestParameter(permissionid+".value");
-		if(permissionidvalue == null && permissionassigned.containsKey(permissionid))
-		{
-			Data data = permissionassigned.get(permissionid);
-			permissionsSearcher.delete(data, null);
-		}
-		else if(permissionidvalue != null && permissionidvalue.asBoolean() && !permissionassigned.containsKey(permissionid))
+		if(permissionidvalue == "true")
 		{
 			Data data = permissionsSearcher.createNewData();
 			data.setValue("moduleid", moduleid);
+			if( entityid != null)
+			{
+				data.setValue("entityid", entityid);
+			}
 			data.setValue("group", groupid);
 			data.setValue("permissionsentity", permissionid);
 			data.setValue("enabled", true);
-			permissionsSearcher.saveData(data);
-			log.info("Permission saved " + permissionid);
+			tosave.add(data);
 		}
 	}
+	permissionsSearcher.saveAllData(tosave, null);
+
 	mediaarchive.getSearcherManager().getCacheManager().clear("permissions" + mediaarchive.getCatalogId());
-	
     
 }
-
 
 init();
 
