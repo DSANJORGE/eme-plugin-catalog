@@ -2,78 +2,116 @@
 
 <properties beanname="dataSearcher">
 
-  <property id="selectedoption" type="list" listid="mcqoptions" index="true" editable="true" stored="true">Selected Option
-    <name>
+  <property id="selectedoption" type="list" listid="mcqoptions" index="true" editable="true"
+    stored="true">Selected Option <name>
       <language id="en"><![CDATA[Selected Option]]></language>
     </name>
   </property>
 
-  <property id="answerconfidence" type="list" listid="answerconfidence" index="true" editable="true" stored="true">Confidence
-    <name>
+  <property id="answerconfidence" type="list" listid="answerconfidence" index="true" editable="true"
+    stored="true">Confidence <name>
       <language id="en"><![CDATA[Confidence]]></language>
     </name>
   </property>
 
-  <property id="entityquestion" type="list" listid="entityquestion" index="true" editable="true" stored="true">Question
-    <name>
+  <property id="entityquestion" type="list" listid="entityquestion" index="true" editable="true"
+    stored="true">Question <name>
       <language id="en"><![CDATA[Question]]></language>
     </name>
   </property>
 
-  <property id="channel" type="list" listid="channel" index="true" editable="true" stored="true">Channel
+  <property id="channel" type="list" listid="channel" index="true" editable="true" stored="true">
+    Channel
     <name>
       <language id="en"><![CDATA[Channel]]></language>
     </name>
   </property>
 
-  <property id="datecreated" type="date" index="true" editable="true" stored="true">Date Created
-    <name>
+  <property id="datecreated" type="date" index="true" editable="true" stored="true">Date Created <name>
       <language id="en"><![CDATA[Date Created]]></language>
     </name>
   </property>
-  
-  <property id="lastpenalty" type="date" index="true" editable="true" stored="true">Last Penalty
-    <name>
+
+  <property id="lastpenalty" type="date" index="true" editable="true" stored="true">Last Penalty <name>
       <language id="en"><![CDATA[Last Penalty]]></language>
     </name>
   </property>
 
-  <property id="user" type="list" listid="user" index="true" editable="true" stored="true">User
-    <name>
+  <property id="user" type="list" listid="user" index="true" editable="true" stored="true">User <name>
       <language id="en"><![CDATA[User]]></language>
     </name>
   </property>
 
-  <property id="pointsearned" editable="true" index="true" stored="true" type="double" datatype="double">Points Earned
-    <name>
+  <property id="pointsearned" editable="true" index="true" stored="true" type="double"
+    datatype="double">Points Earned <name>
       <language id="en"><![CDATA[Points Earned]]></language>
     </name>
   </property>
 
-  <property id="bonusearned" editable="true" index="true" stored="true" type="double" datatype="double">Bonus Earned
-    <name>
+  <property id="bonusearned" editable="true" index="true" stored="true" type="double"
+    datatype="double">Bonus Earned <name>
       <language id="en"><![CDATA[Bonus Earned]]></language>
     </name>
   </property>
 
-  <!-- TestU local patch: topic / subtopic of the attempt, for progress per section. -->
-  <property id="entitytutorial" type="list" listid="entitytutorial" index="true" editable="true" stored="true">Tutorial
-    <name>
-      <language id="en"><![CDATA[Tutorial]]></language>
-    </name>
-  </property>
-
-  <property id="componentsection" type="list" listid="componentsection" index="true" editable="true" stored="true">Section
-    <name>
-      <language id="en"><![CDATA[Section]]></language>
-    </name>
-  </property>
-
-  <property id="iscorrect" editable="true" index="true" stored="true" type="boolean" datatype="boolean">Is Correct
-    <name>
+  <property id="iscorrect" editable="true" index="true" stored="true" type="boolean"
+    datatype="boolean">Is Correct <name>
       <language id="en"><![CDATA[Is Correct]]></language>
     </name>
   </property>
 
-
+  <!-- TestU local patch: topic / subtopic of the attempt, for progress per section. -->
+  <property id="entitytutorial" listid="entitytutorial" index="true" editable="true" stored="true"
+    datatype="list">Tutorial <name>
+      <language id="en"><![CDATA[Tutorial]]></language>
+    </name>
+  </property>
+  <property id="componentsection" listid="componentsection" index="true" editable="true"
+    stored="true" datatype="list">Section <name>
+      <language id="en"><![CDATA[Section]]></language>
+    </name>
+  </property>
+  <!-- Learning engine v1 (services/testu/learn/answer.json validates all of these): mode
+  learn|dailychallenge|improve, or legacy = not verified
+       (blank reads as legacy and never advances the learning sequence); scope = canonical topic|subtopic
+  of the question; hints used 0-3;
+       attemptid = client retry key (row id = <user>_<attemptid>). -->
+  <property id="mode" index="true" stored="true" editable="true" type="list">
+    <name>
+      <language id="en">Mode</language>
+      <language id="es">Modo</language>
+    </name>
+  </property>
+  <property id="scopetype" index="true" stored="true" editable="true" type="list">
+    <name>
+      <language id="en">Scope type</language>
+      <language id="es">Tipo de alcance</language>
+    </name>
+  </property>
+  <property id="scopeid" index="true" stored="true" editable="true" type="list">
+    <name>
+      <language id="en">Scope</language>
+      <language id="es">Alcance</language>
+    </name>
+  </property>
+  <property id="attemptid" index="true" stored="true" editable="false" keyword="true">
+    <name>
+      <language id="en">Attempt id</language>
+      <language id="es">Id de intento</language>
+    </name>
+  </property>
+  <property id="hintlevel" index="true" stored="true" editable="true" type="number"
+    datatype="number">
+    <name>
+      <language id="en">Hint level</language>
+      <language id="es">Nivel de pista</language>
+    </name>
+  </property>
+  <!-- learningsession id (Learn/Improve) or dailychallengeset id the question was served in. -->
+  <property id="learningsession" index="true" stored="true" editable="false" keyword="true">
+    <name>
+      <language id="en">Session</language>
+      <language id="es">Sesión</language>
+    </name>
+  </property>
 </properties>
