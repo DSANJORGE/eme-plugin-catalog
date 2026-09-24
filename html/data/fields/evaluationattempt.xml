@@ -8,12 +8,12 @@
   <property id="user" index="true" stored="true" editable="false" type="list" listid="user"><name><language id="en">User</language><language id="es">Usuario</language></name></property>
   <property id="entitytopic" index="true" stored="true" editable="false" type="list" listid="entitytopic"><name><language id="en">Topic</language><language id="es">Tema</language></name></property>
   <property id="blueprintversion" index="true" stored="true" editable="false" type="number" datatype="number"><name><language id="en">Blueprint version</language><language id="es">Versión del blueprint</language></name></property>
-  <property id="strategy" index="true" stored="true" editable="false" keyword="true"><name><language id="en">Strategy</language><language id="es">Estrategia</language></name></property>
+  <property id="strategy" indextype="not_analyzed" index="true" stored="true" editable="false" keyword="true"><name><language id="en">Strategy</language><language id="es">Estrategia</language></name></property>
   <property id="attemptnumber" index="true" stored="true" editable="false" type="number" datatype="number"><name><language id="en">Attempt number</language><language id="es">Número de intento</language></name></property>
   <property id="questionlist" index="true" stored="true" editable="false" type="text"><name><language id="en">Questions (JSON)</language><language id="es">Preguntas (JSON)</language></name></property>
-  <property id="total" index="true" stored="true" editable="false" type="number" datatype="number"><name><language id="en">Questions</language><language id="es">Preguntas</language></name></property>
+  <property id="total" index="true" stored="true" editable="false" type="double" datatype="double"><name><language id="en">Questions</language><language id="es">Preguntas</language></name></property>
   <property id="answermap" index="true" stored="true" editable="false" type="text"><name><language id="en">Answers (JSON)</language><language id="es">Respuestas (JSON)</language></name></property>
-  <property id="status" index="true" stored="true" editable="false" keyword="true"><name><language id="en">Status</language><language id="es">Estado</language></name></property>
+  <property id="status" indextype="not_analyzed" index="true" stored="true" editable="false" keyword="true"><name><language id="en">Status</language><language id="es">Estado</language></name></property>
   <property id="datecreated" index="true" stored="true" editable="false" type="date"><name><language id="en">Started</language><language id="es">Iniciado</language></name></property>
   <property id="expiresat" index="true" stored="true" editable="false" type="date"><name><language id="en">Expires</language><language id="es">Vence</language></name></property>
   <property id="submitted" index="true" stored="true" editable="false" type="date"><name><language id="en">Submitted</language><language id="es">Entregado</language></name></property>

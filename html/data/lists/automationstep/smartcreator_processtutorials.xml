@@ -25,11 +25,9 @@ TODO: Add another workflow for the SearchCategory population? How many small one
 <name>
 <language id="en"><![CDATA[Smart Creator: Create Outline]]></language>
 </name>
-<llmprompt>
-<language id="en"><![CDATA[Create a brief outline for a Tutorial about ${data.longcaption}. 
+<llmprompt><![CDATA[Create a brief outline for a Tutorial about ${data.longcaption}. 
 	         For each outline topic, create a summary with a header, and paragraphs + lists (where necessary). 
-	         Provide examples if applicable.]]></language>
-</llmprompt>
+	         Provide examples if applicable.]]></llmprompt>
 </data>
 
 <data id="smartcreator_createsections" bean="smartCreatorMakeSectionsSkill" enabled="true" agenttype="taskagent" ordering="10">
@@ -50,11 +48,9 @@ TODO: Add another workflow for the SearchCategory population? How many small one
       <language id="fr"><![CDATA[Tutoriels en attente]]></language>
       <language id="es"><![CDATA[Tutoriales pendientes de proceso]]></language>
     </name>  
-    <llmprompt> 
-      <language id="en"><![CDATA[Create a brief outline for a Tutorial about ${data.longcaption}. 
+    <llmprompt><![CDATA[Create a brief outline for a Tutorial about ${data.longcaption}. 
 	         For each outline topic, create a summary with a header, and paragraphs + lists (where necessary). 
-	         Provide examples if applicable.]]></language> 
-    </llmprompt> 
+	         Provide examples if applicable.]]></llmprompt> 
   </data>  
   <data id="entitytutorial_smartcreator_parse_user_prompt" aiskill="smartCreatorParseUserPromptSkill" automationscenario="smartcreator_auto_entityarticle" enabled="true" runafter="entitytutorial_processpendingrecords"> 
     <name> 

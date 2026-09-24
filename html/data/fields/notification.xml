@@ -81,7 +81,7 @@
       <language id="fr"><![CDATA[Propriétés]]></language>
       <language id="es"><![CDATA[Propiedades]]></language>
     </name>  
-    <property id="key" index="true" stored="true" editable="true">key</property>  
+    <property id="key" indextype="not_analyzed" index="true" stored="true" editable="true">key</property>  
     <property id="value" index="true" stored="true" editable="true">Value</property> 
   </property> 
 </properties>
