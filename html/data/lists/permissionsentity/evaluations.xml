@@ -1,0 +1,5 @@
+<permissions name="Evaluation Permissions">
+  <permission id="manageevaluations" multiedit="false" permissionentitytype="entitytopic" ordering="100" caption="Manage Evaluations">
+    <name><![CDATA[Manage Evaluations]]></name>
+  </permission>
+</permissions>
