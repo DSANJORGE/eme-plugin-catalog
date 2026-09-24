@@ -1,0 +1,12 @@
+<page>
+	<property name="eventname">Clean AI call log</property>
+	<property name="eventdescription">Deletes aicalllog rows older than 30 days</property>
+
+	<property name="enabled">true</property>
+	<property name="period">24h</property>
+	<property name="startingfrommidnight">4h</property>
+
+	<path-action name="Script.run">
+		<script>/${catalogid}/events/scripts/llm/cleanaicalllog.groovy</script>
+	</path-action>
+</page>
