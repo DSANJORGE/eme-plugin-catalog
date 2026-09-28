@@ -5,7 +5,7 @@
     <name> 
       <language id="en"><![CDATA[Id]]></language>  
       <language id="de"><![CDATA[ID]]></language>
-      <language id="fr"><![CDATA[Nom]]></language>
+      <language id="fr"><![CDATA[Nom d'usage]]></language>
       <language id="es"><![CDATA[Identificación]]></language>
     </name> 
   </property>  
@@ -45,7 +45,7 @@
     <name> 
       <language id="en"><![CDATA[Auto Assigned Media]]></language>  
       <language id="de"><![CDATA[Automatisch zugewiesene Medien]]></language>
-      <language id="fr"><![CDATA[Médias attribués automatiquement]]></language>
+      <language id="fr"><![CDATA[Médias automatiquement assignés]]></language>
       <language id="es"><![CDATA[Medios asignados automáticamente]]></language>
     </name> 
   </property>  
@@ -70,7 +70,7 @@
     <name> 
       <language id="en"><![CDATA[Entity Source Type]]></language>  
       <language id="de"><![CDATA[Entitätstyp der Quelle]]></language>
-      <language id="fr"><![CDATA[Type d'entité source]]></language>
+      <language id="fr"><![CDATA[Type de source d'entité]]></language>
       <language id="es"><![CDATA[Tipo de entidad de origen]]></language>
     </name> 
   </property>  
@@ -134,7 +134,7 @@
     <name> 
       <language id="en"><![CDATA[Editors Groups]]></language>  
       <language id="de"><![CDATA[Redaktionsgruppen]]></language>
-      <language id="fr"><![CDATA[Groupes éditoriaux]]></language>
+      <language id="fr"><![CDATA[Groupes d'édition]]></language>
       <language id="es"><![CDATA[Grupos editoriales]]></language>
     </name> 
   </property>  
@@ -239,7 +239,7 @@
       <language id="en"><![CDATA[LLM Error]]></language>  
       <language id="de"><![CDATA[LLM-Fehler]]></language>
       <language id="fr"><![CDATA[Erreur LLM]]></language>
-      <language id="es"><![CDATA[Error en el LLM]]></language>
+      <language id="es"><![CDATA[Error del LLM]]></language>
     </name> 
   </property> 
 </properties>

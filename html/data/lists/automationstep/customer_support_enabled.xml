@@ -51,7 +51,9 @@
     <name>
       <![CDATA[Mark as Critical]]>
     </name>
-    <llmprompt><![CDATA[Handles emails that are critical and require immediate attention from a human agent.]]></llmprompt>
+    <llmprompt>
+      <language id="en"><![CDATA[Handles emails that are critical and require immediate attention from a human agent.]]></language>
+    </llmprompt>
     <skilloverview>
       <language id="en"><![CDATA[Requires name, email, the primary problem and possible department to escalate this problem to.]]></language>
     </skilloverview>

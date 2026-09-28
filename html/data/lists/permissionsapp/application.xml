@@ -9,9 +9,16 @@
 	<permission id="edittablecolumns" permissiontype="application" name="Table Columns" description="Enables the customization of search result columns in table view." ordering="220" />
 	<permission id="editlists" permissiontype="application" name="Inline List Editing" description="Allows users to add values to lists." ordering="225" />
 	
-	<permission id="multiedit" permissiontype="application" name="Multiple Files" description="Enables various actions across multiple assets simultaneously." ordering="210" />
+	<permission id="multiedit" permissiontype="application" name="Edit Multiple Records" description="Enables various actions across multiple records simultaneously." ordering="210" />
 	
 	<permission id="exportdata" permissiontype="application" name="Export Data" description="Enables exporting of data to CSV" ordering="245"/>
+
+		<permission id="addtofavorites" permissionentitytype="general" description="Enables users to add files and records to their Bookmarks" ordering="256">
+		<name>
+			<language id="en"><![CDATA[Add to Bookmarks]]></language>
+			<language id="es"><![CDATA[Agregar a Marcadores]]></language>
+		</name>
+	</permission>
 	
 	<permission id="viewrecentuploads" permissiontype="application" name="View Recent Uploads" description="Allows users to view a page where the most recent uploaded files are shown." ordering="265"/>
 	
