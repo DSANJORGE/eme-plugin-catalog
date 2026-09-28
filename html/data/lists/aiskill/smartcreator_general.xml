@@ -13,11 +13,9 @@
       <language id="es"><![CDATA[Creador inteligente: Procesar registros pendientes]]></language>
     </name>  
     <markdowncontent><![CDATA[Processes new pending records across target modules using LLM prompts to generate outlines and summaries.]]></markdowncontent>
-    <llmprompt> 
-      <language id="en"><![CDATA[Create a brief outline about ${data.longcaption}. 
+    <llmprompt><![CDATA[Create a brief outline about ${data.longcaption}. 
 	         For each outline topic, create a summary with a header, and paragraphs + lists (where necessary). 
-	         Provide examples if applicable.]]></language> 
-    </llmprompt> 
+	         Provide examples if applicable.]]></llmprompt> 
   </data>  
   <data id="smartcreator_findmemory" bean="smartCreatorFindMemoryFilesSkill" agenttype="taskagent" ordering="20"> 
     <name> 

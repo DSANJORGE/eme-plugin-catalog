@@ -29,6 +29,11 @@
       <![CDATA[Translate]]>
     </name>
   </data>
+  <data id="speak">
+    <name>
+      <![CDATA[Text to Speech]]>
+    </name>
+  </data>
   <data id="transcribe">
     <name>
       <![CDATA[Transcribe]]>
@@ -44,5 +49,10 @@
       <![CDATA[Face Detect]]>
     </name>
   </data>
-  
+  <data id="classifytext">
+    <name>
+      <![CDATA[Classify Text]]>
+    </name>
+  </data>
+
 </data>
