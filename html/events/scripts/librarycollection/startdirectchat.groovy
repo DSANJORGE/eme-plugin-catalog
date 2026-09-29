@@ -40,7 +40,7 @@ public void init()
 	
 	Collection othervalidids = otherworkspaces.collectValues("collectionid");
 	
-	HitTracker dmcollections = collectionsearcher.query().exact("collectiontype","3").ids(othervalidids).hitsPerPage(1000).search();
+	HitTracker dmcollections = collectionsearcher.query().exact("collectiontype","3").ids(othervalidids).hitsPerPage(1000).search(); // 3 = directmessage
 	
 	log.info(dmcollections.getQuery() + " found " + dmcollections);
 	
@@ -71,7 +71,7 @@ public void init()
 		{
 			collection.setValue("owner",user.getId());
 		}	
-		collection.setValue("collectiontype","3");
+		collection.setValue("collectiontype","directmessage");
 		collection.setName("Messages "+ users);
 		collectionsearcher.saveData(collection);
 		log.info("Saved " + collection.getId() + " with " + collection.get("collectiontype" ));
