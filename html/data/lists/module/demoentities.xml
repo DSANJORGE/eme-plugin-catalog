@@ -2,7 +2,9 @@
 
 <root> 
   <data id="modulesearch" moduleresultsview="gallery"> 
-    <name><![CDATA[Module Search]]></name> 
+    <name>
+      <language id="en"><![CDATA[Module Search]]></language>
+    </name> 
   </data>  
   <data id="librarycollection" isentity="true" ordering="120" moduleicon="folder-check" showonsearch="false" securityenabled="false" moduleresultsview="table"> 
     <name> 
