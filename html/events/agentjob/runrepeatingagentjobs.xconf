@@ -1,0 +1,8 @@
+<page>
+	<property name="eventname">Run Repeating Agent Jobs</property>
+	<path-action name="AgentJobModule.checkRepeatingJobs" alltypes="true" />
+
+	<property name="enabled">true</property>
+
+	<property name="period">10m</property>
+</page>

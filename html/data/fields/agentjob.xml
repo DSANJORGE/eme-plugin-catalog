@@ -72,5 +72,17 @@
     </name>
   </property>
 
+  <property id="repeatperiod" index="true" stored="true" editable="true" type="list" listid="agentjobrepeatperiod">
+    <name>
+      <language id="en">Repeat Period</language>
+    </name>
+  </property>
+
+  <property id="repeattime" index="true" stored="true" editable="true" note="24 hour time of day to run, such as 03:40">
+    <name>
+      <language id="en">Repeat Time</language>
+    </name>
+  </property>
+
 
 </properties>
