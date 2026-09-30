@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties beanname="folderSearcher"> 
+  <property id="id" internalfield="true" index="true" editable="true" stored="true"> 
+    <name> 
+      <language id="de"><![CDATA[Ich würde]]></language>  
+      <language id="en"><![CDATA[Id]]></language>  
+      <language id="es"><![CDATA[Carné de identidad]]></language>  
+      <language id="fr"><![CDATA[Id]]></language> 
+    </name> 
+  </property>  
+  <property id="serverapikey" editable="true" index="true" stored="true"> 
+    <name> 
+      <language id="en"><![CDATA[Server Api Key]]></language>  
+      <language id="de"><![CDATA[Server-API-Schlüssel]]></language>
+      <language id="fr"><![CDATA[Clé API du serveur]]></language>
+      <language id="es"><![CDATA[Clave de API del servidor]]></language>
+    </name> 
+  </property>  
+    <property id="user" index="true" viewtype="user" stored="true" type="list" editable="false">User Name 
+    <name> 
+      <language id="de"><![CDATA[Benutzername]]></language>  
+      <language id="en"><![CDATA[User Name]]></language>  
+      <language id="es"><![CDATA[Nombre de usuario]]></language>  
+      <language id="fr"><![CDATA[Nom d&#39;utilisateur]]></language> 
+    </name> 
+  </property>  
+
+  <property id="endpoint" editable="true" index="true" stored="true">
+  <name> 
+    <language id="de"><![CDATA[Endpunkt]]></language>  
+    <language id="en"><![CDATA[Endpoint]]></language>  
+    <language id="es"><![CDATA[Punto final]]></language>
+    </name> 
+    </property>
+
+    <property id="p256dh" editable="true" index="true" stored="true">
+    <name> 
+    <language id="de"><![CDATA[P256DH]]></language>  
+    <language id="en"><![CDATA[P256DH]]></language>  
+    </name>
+    </property>
+
+    <property id="auth" editable="true" index="true" stored="true">
+    <name> 
+    <language id="de"><![CDATA[Auth]]></language>  
+    <language id="en"><![CDATA[Auth]]></language>  
+    </name>
+    </property>
+
+    <property id="dateupdated" editable="true" index="true" stored="true">
+    <name> 
+    <language id="de"><![CDATA[Aktualisierungsdatum]]></language>  
+    <language id="en"><![CDATA[Date Updated]]></language>  
+    <language id="es"><![CDATA[Fecha de actualización]]></language>  
+    </name> 
+    </property>
+
+    <property id="userendpoint" editable="true" index="true" stored="true">
+    <name> 
+    <language id="de"><![CDATA[Benutzerendpunkt]]></language>  
+    <language id="en"><![CDATA[User Endpoint]]></language>  
+    </name> 
+    </property>
+
+</properties>
