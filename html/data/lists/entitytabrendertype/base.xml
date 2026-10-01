@@ -201,6 +201,14 @@
       <language id="es"><![CDATA[Chat de inteligencia artificial]]></language>
     </name> 
   </property>  
+  <property id="tabworkflowgroupchat" ordering="1010" rendertypeicon="robot"> 
+    <name> 
+      <language id="en"><![CDATA[AI Group Chat]]></language>  
+      <language id="de"><![CDATA[KI-Gruppenchat]]></language>
+      <language id="fr"><![CDATA[Chat de groupe IA]]></language>
+      <language id="es"><![CDATA[Chat de grupo IA]]></language>
+    </name> 
+  </property>  
   <property id="tabsmartcreator" ordering="1020"> 
     <name> 
       <language id="en"><![CDATA[Smart Creator]]></language>  
