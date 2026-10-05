@@ -24,7 +24,7 @@
 
 	<property id="groups" stored="true" index="true" type="list" viewtype="multiselect" listid="group"
 		editable="false">Groups</property>
-	<property id="firebasetokenid" stored="true" index="true" editable="true">Firebase ID</property>
+	<property id="firebasepassword" stored="true" index="true" editable="true">Firebase Password</property>
 
 
 </properties>
