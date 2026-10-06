@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties beanname="dataSearcher">
+  <property id="id" index="true" stored="true" editable="true" internalfield="true">
+    <name>
+      <language id="en">Id</language>
+    </name>
+  </property>
+
+  <property id="agentjob" index="true" stored="true" editable="true" type="list">
+    <name>
+      <language id="en">Agent Job</language>
+    </name>
+  </property>
+
+  <property id="startdate" index="true" stored="true" editable="true" type="date">
+    <name>
+      <language id="en">Start Date</language>
+    </name>
+  </property>
+
+  <property id="enddate" index="true" stored="true" editable="true" type="date">
+    <name>
+      <language id="en">End Date</language>
+    </name>
+  </property>
+
+  <property id="status" index="true" stored="true" editable="true" type="list" listid="jobstatus">
+    <name>
+      <language id="en">Status</language>
+    </name>
+  </property>
+
+  <property id="markdowncontent" keyword="true" index="true" indextype="not_analyzed" editable="true" stored="true" viewtype="markdown">
+    <name>
+      <language id="en"><![CDATA[Markdown Content]]></language>
+    </name>
+  </property>
+</properties>

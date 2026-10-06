@@ -53,7 +53,7 @@
     <name><![CDATA[User Chat]]></name>
   </data>
   
-  <data id="entitywebcontent"  isentity="true" >
+  <data id="entitywebcontent"  isentity="false" >
     <name><![CDATA[Web Content]]></name>
   </data>
 

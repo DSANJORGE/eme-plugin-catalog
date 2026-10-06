@@ -94,4 +94,10 @@
     </name>
   </property>
 
+  <property id="userrequest" index="true" stored="true" indextype="not_analyzed" editable="true" note="Original step request kept so repeating jobs can run it again">
+    <name>
+      <language id="en">Original Request</language>
+    </name>
+  </property>
+
 </properties>

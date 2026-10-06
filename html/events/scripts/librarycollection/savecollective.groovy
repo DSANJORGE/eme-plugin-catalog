@@ -49,7 +49,7 @@ public void init()
 	addUser(mediaArchive,collection,context.getUserName());
 	
 	String collectiontype = context.getRequestParameter("collectiontype");
-	if( collectiontype == "3")
+	if( collectiontype == "3") // 3 = direct message
 	{
 		String[] otherusers = context.getRequestParameters("otherusers");
 		for (userid in otherusers) {
