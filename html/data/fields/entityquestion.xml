@@ -16,4 +16,6 @@
   <property id="skill" index="true" stored="true" editable="true" type="list" listid="skill"><name><language id="en">Skill</language><language id="es">Skill</language></name></property>
   <!-- Learning engine v1: reserved for evaluations, never served by learn/improve/dailychallenge. -->
   <property id="evaluationreserved" index="true" stored="true" editable="true" type="boolean" datatype="boolean"><name><language id="en">Reserved for evaluation</language><language id="es">Reservada para evaluación</language></name></property>
+  <!-- This base file stops fields/default.xml from merging (PropertyDetailsArchive), so declare id here or search.json rows lose it. -->
+  <property id="id" internalfield="true" index="true" editable="true" stored="true"><name><language id="en">Id</language><language id="es">Id</language></name></property>
 </properties>
