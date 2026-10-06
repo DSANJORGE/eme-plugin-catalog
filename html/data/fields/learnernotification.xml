@@ -29,5 +29,5 @@
   <!-- Mission agent: remindat = deliver at (null = immediate); pushedat = when the push went out; status = goal status a status-change push announced. -->
   <property id="remindat" index="true" stored="true" editable="false" type="date"><name><language id="en">Remind at</language><language id="es">Recordar a las</language></name></property>
   <property id="pushedat" index="true" stored="true" editable="false" type="date"><name><language id="en">Pushed</language><language id="es">Enviada</language></name></property>
-  <property id="status" index="true" stored="true" editable="false" keyword="true"><name><language id="en">Goal status</language><language id="es">Estado del objetivo</language></name></property>
+  <property id="status" index="true" stored="true" editable="false" keyword="true" indextype="not_analyzed"><name><language id="en">Goal status</language><language id="es">Estado del objetivo</language></name></property>
 </properties>
