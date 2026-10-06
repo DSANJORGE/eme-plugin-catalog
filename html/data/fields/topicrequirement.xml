@@ -20,4 +20,6 @@
   <property id="validitymonths" index="true" stored="true" editable="true" type="number" datatype="long"><name><language id="en">Validity (months)</language><language id="es">Validez (meses)</language></name></property>
   <property id="passpercent" index="true" stored="true" editable="true" type="number" datatype="long"><name><language id="en">Pass %</language><language id="es">Aprobar %</language></name></property>
   <property id="renewalwindowdays" index="true" stored="true" editable="true" type="number" datatype="long"><name><language id="en">Renewal window (days)</language><language id="es">Ventana de renovación (días)</language></name></property>
+  <!-- Mission agent (spec 2026-10-05): complete within N days of assignment; blank = no deadline. -->
+  <property id="withindays" index="true" stored="true" editable="true" type="number" datatype="long"><name><language id="en">Deadline (days)</language><language id="es">Plazo (días)</language></name></property>
 </properties>

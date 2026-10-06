@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Mission agent coach (spec 2026-10-05): a manager hid a suggestion until `until`. id <user>_<key>. -->
+<properties beanname="dataSearcher">
+  <property id="id" index="true" stored="true" editable="false" keyword="true"><name><language id="en">ID</language></name></property>
+  <property id="user" index="true" stored="true" editable="false" type="list" listid="user"><name><language id="en">Manager</language><language id="es">Responsable</language></name></property>
+  <property id="key" index="true" stored="true" editable="false" keyword="true"><name><language id="en">Suggestion</language><language id="es">Sugerencia</language></name></property>
+  <property id="until" index="true" stored="true" editable="false" type="date"><name><language id="en">Hidden until</language><language id="es">Oculta hasta</language></name></property>
+</properties>

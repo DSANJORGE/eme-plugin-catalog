@@ -9,4 +9,5 @@
   <learnernotificationtype id="fixed"><name><![CDATA[Corrigieron la pregunta que reportaste]]></name></learnernotificationtype>
   <learnernotificationtype id="reviewed"><name><![CDATA[Revisaron la pregunta que reportaste]]></name></learnernotificationtype>
   <learnernotificationtype id="certification"><name><![CDATA[Certificación]]></name></learnernotificationtype>
+  <learnernotificationtype id="mission"><name><![CDATA[Objetivo]]></name></learnernotificationtype>
 </learnernotificationtypes>

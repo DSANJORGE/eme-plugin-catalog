@@ -24,6 +24,7 @@
 	<property id="groups" stored="true" index="true" type="list"   viewtype="multiselect"  listid="group" editable="false">Groups</property>
 	<property id="firebasetokenid" stored="true" index="true" editable="true">Firebase ID</property>
 
+	<property id="lastmissionstatus" index="false" stored="true" editable="false" keyword="true"><name><language id="en">Last mission status shown</language><language id="es">Último estado de misión mostrado</language></name></property>
 
-	
+
 </properties>

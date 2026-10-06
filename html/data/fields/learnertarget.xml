@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Mission agent (spec 2026-10-05): one row per learner x topic, id <user>_<topicid>. duedate is a day value (midnight UTC,
+     LearningEngine.parseYmd). source = profile (written from topicrequirement.withindays) | manual (a manager's setdue). -->
+<properties beanname="dataSearcher">
+  <property id="id" index="true" stored="true" editable="false" keyword="true"><name><language id="en">ID</language></name></property>
+  <property id="user" index="true" stored="true" editable="false" type="list" listid="user"><name><language id="en">User</language><language id="es">Usuario</language></name></property>
+  <property id="entitytopic" index="true" stored="true" editable="false" type="list" listid="entitytopic"><name><language id="en">Topic</language><language id="es">Tema</language></name></property>
+  <property id="duedate" index="true" stored="true" editable="false" type="date"><name><language id="en">Due</language><language id="es">Vence</language></name></property>
+  <property id="source" index="true" stored="true" editable="false" keyword="true"><name><language id="en">Source</language><language id="es">Origen</language></name></property>
+  <property id="createdby" index="true" stored="true" editable="false" type="list" listid="user"><name><language id="en">Set by</language><language id="es">Definido por</language></name></property>
+  <property id="createdon" index="true" stored="true" editable="false" type="date"><name><language id="en">Set on</language><language id="es">Definido el</language></name></property>
+</properties>
