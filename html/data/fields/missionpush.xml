@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Weekly objective (spec amendment 2026-10-06): one row per mission push, id <notification id>_<yyyyMMddHHmm> (UTC), so push
+     history survives the reused learnernotification rows. kind = remind | unfinished | ready | at_risk | overdue | coach. Written by
+     TestULearningModule.pushMission, read by TestUAnalyticsModule.engagement (missionpushes). Counts only, never shown by name. -->
+<properties beanname="dataSearcher">
+  <property id="id" index="true" stored="true" editable="false" keyword="true"><name><language id="en">ID</language></name></property>
+  <property id="user" index="true" stored="true" editable="false" type="list" listid="user"><name><language id="en">User</language><language id="es">Usuario</language></name></property>
+  <property id="kind" index="true" stored="true" editable="false" keyword="true" indextype="not_analyzed"><name><language id="en">Push kind</language><language id="es">Tipo de aviso</language></name></property>
+  <property id="entitytopic" index="true" stored="true" editable="false" type="list" listid="entitytopic"><name><language id="en">Topic</language><language id="es">Tema</language></name></property>
+  <property id="sentat" index="true" stored="true" editable="false" type="date"><name><language id="en">Sent at</language><language id="es">Enviado</language></name></property>
+  <property id="notification" index="true" stored="true" editable="false" keyword="true" indextype="not_analyzed"><name><language id="en">Notification</language><language id="es">Notificación</language></name></property>
+</properties>
